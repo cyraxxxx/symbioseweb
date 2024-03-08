@@ -23,7 +23,7 @@ const Navbar = () => {
 <ul className="flex-center gap-x-3 max-md:hidden md:gap-x-10">
   <li>
     <Link
-    href="#"
+    href="https://symbioseweb.com"
     target="_blank"
     className="text-white-100 bg-black-500 whitespace-nowrap rounded-lg px-8 py-2.5 capitalize"
     >

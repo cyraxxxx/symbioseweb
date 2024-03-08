@@ -27,7 +27,7 @@ const Page = async ({ searchParams }: Props) => {
 
   return (
     //<main className="flex-center paddings mx-auto w-full max-w-screen-2xl flex-col">
-      <main className="flex-center px-20 pb-20 mx-auto w-full flex-col">
+      <main className="flex-center px-5 pb-20 mx-auto w-full flex-col sm:px-20">
 
 
 
@@ -72,7 +72,7 @@ const Page = async ({ searchParams }: Props) => {
             category={searchParams?.category || ''}
           />
 
-          <div className="mt-6 flex w-full flex-wrap justify-center gap-16 sm:justify-start">
+          <div className="mt-6 flex w-full flex-wrap justify-center gap-16 sm:justify-center">
             {resources?.length > 0 ? (
               resources.map((resource: any) => (
                 <ResourceCard 
@@ -86,7 +86,8 @@ const Page = async ({ searchParams }: Props) => {
               ))
             ): (
               <p className="body-regular text-grey-300">
-                No resources found
+                {/* No resources found */}
+                Aucun résultat
               </p>
             )}
           </div>
@@ -95,8 +96,8 @@ const Page = async ({ searchParams }: Props) => {
 
 {resourcesPlaylist.map((item: any) => (
         <section key={item._id} className="flex-center mt-4 w-full flex-col sm:mt-14 max-w-screen-2xl">
-          <h1 className="heading3 self-start text-black-500">{item.title}</h1>
-          <div className="mt-6 flex w-full flex-wrap justify-center gap-16 sm:justify-start">
+          <h1 className="heading3 self-center text-black-500">{item.title}</h1>
+          <div className="mt-6 flex w-full flex-wrap justify-center gap-16 sm:justify-center">
             {item.resources.map((resource: any) => (
                 <ResourceCard 
                   key={resource._id}

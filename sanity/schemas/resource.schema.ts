@@ -43,7 +43,7 @@ const schema = {
       type: 'string',
       validation: (Rule: any) => Rule.required(),
       options: {
-        list: ['website', 'application', 'infographic', 'motion-design', 'other']
+        list: ['site web', 'application', 'infographie', 'motion-design', 'autre']
       }
     }
   ]

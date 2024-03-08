@@ -49,7 +49,7 @@ const SearchForm = () => {
         <Input 
           className="base-regular h-fit border-0 bg-white-600 py-6 pl-20 pr-8 text-grey-300 !ring-0 !ring-offset-0 placeholder:text-grey-300"
           type="text"
-          placeholder="Search"
+          placeholder="Recherche"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />

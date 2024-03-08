@@ -13,7 +13,7 @@ interface Props {
 
 const ResourceCard = ({ id, title, image, downloadNumber, downloadLink }: Props) => {
   return (
-    <Card className="w-full max-w-fit !bg-transparent sm:max-w-[356px] p-3">
+    <Card className="w-full max-w-fit bg-black-500 sm:max-w-[356px] p-3">
       <Link href={downloadLink} target="_blank">
         <CardHeader className="flex-center flex-col gap-2.5 !p-0">
           <div className="h-fit aspect-video">
@@ -25,7 +25,7 @@ const ResourceCard = ({ id, title, image, downloadNumber, downloadLink }: Props)
               alt={title}
             />
           </div>
-          <CardTitle className="text-black-500 paragraph-semibold line-clamp-1 w-full text-left">{title}</CardTitle>
+          <CardTitle className="text-white-100 paragraph-semibold line-clamp-1 w-full text-left">{title}</CardTitle>
         </CardHeader>
       </Link>
       <CardContent className="flex-between mt-3 p-0">
@@ -36,7 +36,7 @@ const ResourceCard = ({ id, title, image, downloadNumber, downloadLink }: Props)
           {downloadNumber}
         </div> */}
         <Link href={downloadLink} target="_blank" className="flex-center text-grey-300 body-semibold gap-1.5">
-          Take a look
+          Aperçu
           <Image src="/arrow-grey.svg" width={13} height={10} alt="arrow" />
         </Link>
       </CardContent>
