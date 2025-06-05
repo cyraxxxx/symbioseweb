@@ -82,7 +82,7 @@
   }
 
   .nav-padding {
-    @apply pt-[98px];
+    @apply pt-[120px];
   }
 
   .paddings {
@@ -247,4 +247,18 @@
 .no-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+.bg-green {
+  background: #47ac74;
+}
+.text-green {
+  color: #47ac74;
+}
+
+.bg-blue {
+  background: #16336f;
+}
+.text-blue {
+  color: #16336f;
 }

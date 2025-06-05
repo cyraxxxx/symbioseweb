@@ -40,11 +40,12 @@ const Filters = () => {
           onClick={() => handleFilter(link)}
           className={`${
             //active === link ?"gradient_blue-purple" : ""
-            active === link ?"text-white-100 bg-black-500" : ""
+            active === link ?"text-white-100 bg-green" : ""
           } whitespace-nowrap rounded-lg px-2 py-2.5 capitalize sm:px-4`}
         >
           {link}
         </button>
+
       ))}
     </ul>
   )

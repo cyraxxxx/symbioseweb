@@ -13,7 +13,8 @@ interface Props {
 
 const ResourceCard = ({ id, title, image, downloadNumber, downloadLink }: Props) => {
   return (
-    <Card className="w-full max-w-fit bg-black-500 sm:max-w-[356px] p-3">
+    <Card className="w-full max-w-fit bg-blue sm:max-w-[356px] p-3">
+    {/* <Card className="w-full max-w-fit bg-black-500 sm:max-w-[356px] p-3"> */}
       <Link href={downloadLink} target="_blank">
         <CardHeader className="flex-center flex-col gap-2.5 !p-0">
           <div className="h-fit aspect-video">
