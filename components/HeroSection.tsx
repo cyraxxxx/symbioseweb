@@ -33,6 +33,8 @@ const HeroSection = () => {
                 1000,
                 "Conception d'applications web",
                 1000,
+                "Conception d'applications mobiles",
+                1000,
                 "Développement frontend",
                 1000,
                 "Développement backend",
