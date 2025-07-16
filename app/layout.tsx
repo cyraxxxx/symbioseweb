@@ -55,14 +55,28 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'fr_CA',
     // You can uncomment and add your image later:
-    images: [{ url: 'https://symbioseweb.com/homepage-thumbnail.png' }],
+    images: [
+      {
+        url: "https://symbioseweb.com/homepage-thumbnail.jpg",
+        width: 1200,
+        height: 661,
+        alt: "Symbiose Web Thumbnail",
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Symbiose Web Solutions',
     description: 'Des solutions numériques sur mesure pour entreprises et créateurs.',
     site: '@symbioseweb',
-    images: [{ url: 'https://symbioseweb.com/homepage-thumbnail.png' }],
+    images: [
+      {
+        url: "https://symbioseweb.com/homepage-thumbnail.jpg",
+        width: 1200,
+        height: 661,
+        alt: "Symbiose Web Thumbnail",
+      },
+    ],
   },
   authors: [{ name: 'Cyril Robert', url: 'https://symbioseweb.com' }],
   creator: 'Cyril Robert',
